@@ -7,8 +7,6 @@ on:
         description: "Number of survey submissions"
         required: false
         default: "250"
-  schedule:
-    - cron: "0 9 * * *"
 
 jobs:
   survey:
